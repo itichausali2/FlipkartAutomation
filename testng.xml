@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name= "Automation">
+<test name = "FirefoxTest">
+<classes>
+<class name ="FlipkartAutomate">
+<methods>
+	<include name = "login"/>
+	 <include name = "categorySelecction"/>
+	<include name="priceSelector"/>
+	<include name = "scroll"/>
+	<include name="changePin"/>
+	<include name="selectproduct"/>
+	<include name="buynow"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
